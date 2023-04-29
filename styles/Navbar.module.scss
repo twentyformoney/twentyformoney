@@ -1,0 +1,49 @@
+.Navbar{
+position: fixed;
+z-index: 1;
+margin:1rem;
+    h1{
+      color:white;
+      font-size: large;
+      font-weight: 600;
+      
+    }
+    padding:0.5rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 7px 24px;
+    border-radius: 1.2rem;
+    transition: 0.7s;
+    border:0px;
+    font-size: medium;
+    height: 2.3rem;
+    overflow: hidden;
+    .Container_head{
+      display: flex;
+      flex-direction:column;
+      .Containerselect_head{
+        font-weight: 600;
+        margin-top:1rem;
+        padding:0 rem;
+        border-radius: 1rem;
+        transition: 0.3s;
+        border:0px #f1f1f131;
+      }
+      .Containerselect_head:hover{
+        padding:0.7rem;
+        border:1px solid #f1f1f131;
+        background-color: #333185;
+        opacity:80%;
+      }
+      span{
+        color:white;
+        cursor:pointer;
+      }
+    }
+  }
+  .Navbar:hover{
+    border: 1px solid #f1f1f131;
+    opacity:80%;
+    padding:2rem;
+    height:15rem;
+    
+  }
+  

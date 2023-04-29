@@ -1,0 +1,18 @@
+.Main{
+  color:white;
+  text-align: center;
+ 
+}
+.BodyImage{
+  
+  background-image: url(/assets/img/Blur.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-mask-image: linear-gradient(black, transparent);
+  mask-image: linear-gradient (black, transparent);
+
+}
+.Body{
+  padding:10rem;
+  height:40rem;
+}
