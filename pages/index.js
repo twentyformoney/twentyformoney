@@ -17,18 +17,19 @@ export default function Home() {
           <div className={styles.BodyImage}>
             <div className={styles.Body}>
             <h1> TWENTYFORMONEY</h1>
+            
             <span>Portofolio</span>
             <div className={styles.Desc_about_container}>
                     <div className={styles.Desc_social}>
-                      <a href="https://www.instagram.com/twenty4money/" target="_blank">
+                      <a href="https://www.instagram.com/twenty4money/" target="_blank" >
                       <div className={styles.ImageSocial}>
-                       <Image Src='assets/img/social/instagram.png' width={130}/>
+                       <Image src='/assets/img/social/instagram.png' width={130} height={130} alt="Instagram"/>
                        <h4>Instagram</h4>
                       </div>
                       </a>
-                      <a href="https://www.youtube.com/channel/UCaAqyIxex60UWa74TdYlFmw" target="_blank">
+                      <a href="https://www.youtube.com/channel/UCaAqyIxex60UWa74TdYlFmw" target="_blank" >
                       <div className={styles.ImageSocial}>
-                       <Image Src='assets/img/social/youtube.png' width={130}/>
+                       <Image src='/assets/img/social/youtube.png' width={130} height={130} alt="Youtube"/>
                        <h4>Youtube</h4>
                       </div>
                       </a>
