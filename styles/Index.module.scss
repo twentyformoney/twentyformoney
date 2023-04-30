@@ -4,7 +4,8 @@
  
 }
 .BodyImage{
-  
+
+
   background-image: url(/assets/img/Blur.gif);
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,6 +14,25 @@
 
 }
 .Body{
-  padding:10rem;
+  padding:10%;
   height:40rem;
+}
+.Desc_about_container{
+  padding: 3rem;
+  .Desc_about{
+    text-align: start;
+    background-color: #f1f1f10c;
+    padding:1.2rem;
+    border: 1px solid #f1f1f131;
+    border-radius: 1.2rem;
+    backdrop-filter: blur(10px);
+    text-align: justify;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .Body{
+    padding:0.6rem;
+    padding-top:6rem;
+    
+  }
 }
