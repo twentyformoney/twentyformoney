@@ -19,6 +19,9 @@
 }
 .Desc_about_container{
   padding: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   .Desc_about{
     text-align: start;
     background-color: #f1f1f10c;
@@ -27,6 +30,40 @@
     border-radius: 1.2rem;
     backdrop-filter: blur(10px);
     text-align: justify;
+    
+  }
+  .Desc_social{
+    
+    display:flex;
+    gap:4rem;
+    background-color: #f1f1f10c;
+    padding:1.2rem;
+    border: 1px solid #f1f1f131;
+    border-radius: 1.2rem;
+    backdrop-filter: blur(10px);
+    a{
+      text-decoration: none;
+      color:white;
+    }
+    .ImageSocial{
+      height: 8rem;
+      overflow: hidden;
+      transition: 0.5s ease-in-out;
+      border-radius: 1.1rem;
+      
+    }
+    .ImageSocial:hover{
+      
+      height: 11.5rem;
+      transform: scale(2);
+      border: 1px solid #f1f1f131;
+      border-radius: 1.1rem;
+      backdrop-filter: blur(10px);
+      h1{
+        padding:0;
+        
+      }
+    }
   }
 }
 @media only screen and (max-width: 600px) {
