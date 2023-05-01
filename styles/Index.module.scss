@@ -33,32 +33,33 @@
     
   }
   .Desc_social{
-    
+
     display:flex;
-    gap:4rem;
+    gap:4.5rem;
     background-color: #f1f1f10c;
     padding:1.2rem;
     border: 1px solid #f1f1f131;
     border-radius: 1.2rem;
-    backdrop-filter: blur(10px);
+    
+    
     a{
       text-decoration: none;
       color:white;
     }
     .ImageSocial{
+      
       height: 8rem;
       overflow: hidden;
       transition: 0.5s ease-in-out;
       border-radius: 1.1rem;
+      backdrop-filter: blur(10px);
       
     }
     .ImageSocial:hover{
-      
       height: 11.5rem;
       transform: scale(2);
       border: 1px solid #f1f1f131;
       border-radius: 1.1rem;
-      backdrop-filter: blur(10px);
       h1{
         padding:0;
         

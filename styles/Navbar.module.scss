@@ -1,4 +1,8 @@
 .Navbar{
+    li{
+      text-decoration: none;
+      list-style-type: none;
+    }
 a{
     text-decoration: none;
 }
@@ -19,12 +23,12 @@ margin:1rem;
     transition: 0.7s;
     border:0px;
     font-size: medium;
-    height: 5%;
+    height: 4%;
     overflow: hidden;
     .Container_head{
       display: flex;
       flex-direction:column;
-      .Containerselect_head{
+      li{
         font-weight: 600;
         margin-top:1rem;
         padding:0 rem;
@@ -36,7 +40,13 @@ margin:1rem;
             color:white;
         }
       }
-      .Containerselect_head:hover{
+      li:hover{
+        padding:0.7rem;
+        border:1px solid #f1f1f131;
+        background-color: #333185;
+        opacity:80%;
+      }
+      li.active{
         padding:0.7rem;
         border:1px solid #f1f1f131;
         background-color: #333185;
@@ -44,26 +54,71 @@ margin:1rem;
       }
     }
   }
-  .Navbar:hover{
-    border: 1px solid #f1f1f131;
-    opacity:80%;
-    padding:2rem;
-    height: 20%;
-    backdrop-filter: blur(20px);
+  .NavLeft{
+    float:left;
   }
-  @media only screen and (max-width: 600px) {
+  .NavRight{
+    
+    float:right;
+    .BurgerOpsi{
+        padding:0.5em;
+        padding-right: 1.5rem;
+       }   
+    
+
+  }
+  @media only screen and (max-width: 990px) {
     .Navbar{
+        backdrop-filter: blur(20px);
+        position: absolute;
         overflow:visible;
-        position: static;
+        width: 100%;
         margin:0;
         border-radius: 0;
-        padding:1rem;
-        .Containerselect_head{
-            display:none;
+        height: max-content;
+        .Option{
+            visibility: hidden;
+            animation: fadeOut 0.6s;
+            height: 0em;
+            
+            overflow:hidden;
         }
+        .ActiveOption{
+          animation: fadein 1s;
+          height: 7em
+        }
+        
     }
     .Navbar:hover{
         opacity:100%;
+        padding:1rem;
+        
     }
    
+  }
+  @keyframes fadein {
+    from { opacity: 0; height: 0em;}
+    to   { opacity: 1; height: 7em; }
+}
+@keyframes fadeOut {
+  from { opacity: 1; height: 7em;}
+  to   { opacity: 0; height: 0em; }
+}
+  @media only screen and (min-width: 990px) {
+    .Navbar:hover{
+        border: 1px solid #f1f1f131;
+        opacity:80%;
+        padding:2rem;
+        height: 20%;
+        backdrop-filter: blur(20px);
+      }
+    .NavRight{
+        .BurgerOpsi{
+            display:none;
+            
+           }   
+        
+        
+    
+      }
   }
