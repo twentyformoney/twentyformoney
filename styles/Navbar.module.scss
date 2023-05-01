@@ -62,7 +62,6 @@ margin:1rem;
     float:right;
     .BurgerOpsi{
         padding:0.5em;
-        padding-right: 1.5rem;
        }   
     
 
@@ -72,6 +71,7 @@ margin:1rem;
         backdrop-filter: blur(20px);
         position: absolute;
         overflow:visible;
+        box-sizing: border-box;
         width: 100%;
         margin:0;
         border-radius: 0;
