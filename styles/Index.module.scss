@@ -1,79 +1,189 @@
-.Main{
-  color:white;
+.Main {
+  color: white;
   text-align: center;
- 
+  
+  .BodyImage {
+    position: relative;
+    z-index: 0;
+    
+    &::before {
+      content: "";
+      z-index: -1;
+      top: 0;
+      left: 0;
+      right: 0;
+      position: absolute;
+      height: 120vh;
+      max-height: 120vh;
+      background-image: url(/assets/img/Blur.gif);
+      background-repeat: no-repeat;
+      background-size: cover;
+      -webkit-mask-image: linear-gradient(black, transparent);
+      mask-image: linear-gradient (black, transparent);
+    }
+
+  }
 }
-.BodyImage{
 
 
-  background-image: url(/assets/img/Blur.gif);
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-mask-image: linear-gradient(black, transparent);
-  mask-image: linear-gradient (black, transparent);
 
+
+.Body {
+
+  padding: 10%;
+  height: 40rem;
 }
-.Body{
-  padding:10%;
-  height:40rem;
-}
-.Desc_about_container{
+
+.Desc_about_container {
   padding: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  .Desc_about{
+
+  .Desc_about {
     text-align: start;
     background-color: #f1f1f10c;
-    padding:1.2rem;
+    padding: 1.2rem;
     border: 1px solid #f1f1f131;
     border-radius: 1.2rem;
     backdrop-filter: blur(10px);
     text-align: justify;
-    
-  }
-  .Desc_social{
 
-    display:flex;
-    gap:4.5rem;
+  }
+
+  .Skill {
+    border: 1px solid #f1f1f131;
+    padding: 2.1rem;
+    border-radius: 1.2rem;
+    text-align: left;
+    font-size: small;
+    backdrop-filter: blur(10px);
+    .Skill_Desc{
+      padding: 0.2rem;
+      h1{
+        font-weight: 400;
+      }
+      .Progress_HTML{
+        padding: 0.3rem;
+        background-color: white;
+        border-radius: 1rem;
+        max-width: 100%;
+        animation:  html 1s ease forwards;
+      }
+      .Progress_CSS{
+        padding: 0.3rem;
+        background-color: white;
+        border-radius: 1rem;
+        max-width: 100%;
+        animation:  CSS 1s ease forwards;
+      }
+      .Progress_JAVASCRIPT{
+        padding: 0.3rem;
+        background-color: white;
+        border-radius: 1rem;
+        max-width: 100%;
+        animation:  JAVASCRIPT 1s ease forwards;
+      }
+      .Progress_VBNET{
+        padding: 0.3rem;
+        background-color: white;
+        border-radius: 1rem;
+        max-width: 100%;
+        animation:  VBNET 1s ease forwards;
+      }
+      .Progress_CSHARP{
+        padding: 0.3rem;
+        background-color: white;
+        border-radius: 1rem;
+        max-width: 100%;
+        animation:  CSHARP 1s ease forwards;
+      }
+      .Progress_PYTHON{
+        padding: 0.3rem;
+        background-color: white;
+        border-radius: 1rem;
+        max-width: 100%;
+        animation:  PYTHON 1s ease forwards;
+      }
+      @keyframes html{
+        from{width: 0%;}
+        to{width: 90%;}
+      } 
+      @keyframes CSS{
+        from{width: 0%;}
+        to{width: 80%;}
+      } 
+      @keyframes JAVASCRIPT{
+        from{width: 0%;}
+        to{width: 35%;}
+      } 
+      @keyframes VBNET{
+        from{width: 0%;}
+        to{width: 55%;}
+      } 
+      @keyframes JAVASCRIPT{
+        from{width: 0%;}
+        to{width: 35%;}
+      }
+      @keyframes CSHARP{
+        from{width: 0%;}
+        to{width: 20%;}
+      }  
+      @keyframes PYTHON{
+        from{width: 0%;}
+        to{width: 10%;}
+      }  
+      }
+    }
+  }
+
+  .Desc_social {
+
+    display: flex;
+    gap: 4.5rem;
     background-color: #f1f1f10c;
-    padding:1.2rem;
+    padding: 1.2rem;
     border: 1px solid #f1f1f131;
     border-radius: 1.2rem;
-    
-    
-    a{
+
+
+    a {
       text-decoration: none;
-      color:white;
+      color: white;
     }
-    .ImageSocial{
-      
+
+    .ImageSocial {
+
       height: 8rem;
       overflow: hidden;
       transition: 0.5s ease-in-out;
       border-radius: 1.1rem;
       backdrop-filter: blur(10px);
-      
+
     }
-    .ImageSocial:hover{
+
+    .ImageSocial:hover {
       height: 11.5rem;
       transform: scale(2);
       border: 1px solid #f1f1f131;
       border-radius: 1.1rem;
-      h1{
-        padding:0;
-        
+
+      h1 {
+        padding: 0;
+
       }
     }
   }
-}
+
+
 @media only screen and (max-width: 600px) {
-  .Body{
-    padding:0.6rem;
-    padding-top:6rem;
-    
+  .Body {
+    padding: 0.6rem;
+    padding-top: 6rem;
+
   }
-  .Desc_social{
+
+  .Desc_social {
     display: flex;
     flex-direction: column;
   }
