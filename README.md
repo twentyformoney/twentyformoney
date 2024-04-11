@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<br clear="both">
 
-## Getting Started
+<h1 align="right">Hello👋, I am 24Money</h1>
 
-First, run the development server:
+###
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<br clear="both">
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<img align="left" height="200" src="https://scontent.fbpn2-1.fna.fbcdn.net/v/t39.30808-6/245627392_347805363809417_7607686386894713507_n.png?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=AwF4Ua7RgwUAb5rupNJ&_nc_ht=scontent.fbpn2-1.fna&oh=00_AfA7-fPIgzE54s--r7_MDeQ3fUTRCnMVkiOHnO5zeCZjzA&oe=661D7A65"  />
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+###
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<div align="right">
+  <img src="https://github-readme-stats.vercel.app/api?username=twentyformoney&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="180" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=twentyformoney&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=radical&hide_border=false&order=2" height="156" alt="languages graph"  />
+</div>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+###
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<br clear="both">
 
-## Learn More
+<div align="right">
+  <a href="712692530449219704" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo"  />
+  </a>
+  <a href="https://www.youtube.com/channel/UCaAqyIxex60UWa74TdYlFmw" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/youtube/default.svg" width="52" height="40" alt="youtube logo"  />
+  </a>
+  <a href="https://www.instagram.com/twenty4money/" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo"  />
+  </a>
+</div>
 
-To learn more about Next.js, take a look at the following resources:
+###
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<div align="center">
+  <a href="https://open.spotify.com/user/6ingb0fgljbka2kmvafvopff9">
+    <img src="https://spotify-recently-played-readme.vercel.app/api?user=6ingb0fgljbka2kmvafvopff9&count=5&unique=true" alt="Spotify recently played"  />
+  </a>
+</div>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+###
